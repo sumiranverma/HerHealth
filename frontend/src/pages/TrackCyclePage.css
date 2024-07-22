@@ -1,0 +1,118 @@
+.track-cycle-container {
+    padding: 20px;
+    background-color: #fff0f5;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.track-cycle-container h2 {
+    font-size: 2em;
+    color: #780000;
+}
+
+.track-cycle-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logged-cycles {
+    margin: 20px 0;
+}
+
+.logged-cycles h3 {
+    font-size: 1.5em;
+    color: #780000;
+}
+
+.cycles-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cycle-entry {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.cycle-entry p {
+    margin: 5px 0;
+}
+
+.log-cycle-button {
+    background-color: #003049;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.log-cycle-button:hover {
+    background-color: #ff4382;
+}
+
+.reminder {
+    margin-top: 20px;
+    color: #780000;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Custom styles for the react-calendar component */
+.react-calendar {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.react-calendar__navigation button {
+    color: #0a9396;
+    font-size: 1.2em;
+    margin-top: 8px;
+}
+
+.react-calendar__month-view__weekdays {
+    text-align: center;
+    font-weight: bold;
+    color: #0a9396;
+}
+
+.react-calendar__month-view__days__day {
+    font-size: 1em;
+    color: #555;
+}
+
+.react-calendar__tile {
+    background: none;
+    color: #555;
+}
+
+.react-calendar__tile--active {
+    background: #ff69b4;
+    color: white;
+}
+
+.react-calendar__tile--now {
+    background: #ffb6c1;
+}
+
+.react-calendar__tile:enabled:hover {
+    background: #ffe4e1;
+}

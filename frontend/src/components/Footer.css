@@ -1,0 +1,12 @@
+.app-footer {
+    background-color: #669bbc;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #ddd;
+    color: white;
+}

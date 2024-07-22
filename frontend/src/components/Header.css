@@ -1,0 +1,23 @@
+.app-header {
+    background-color: #669bbc;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.app-header nav {
+    margin-top: 10px;
+    
+}
+
+.app-header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app-header nav a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,52 @@
+.sidebar {
+    background-color: #fff0f5;
+    padding: 20px;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -300px; /* Initially hidden */
+    transition: left 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar.open {
+    left: 0; /* Visible when open */
+}
+
+.toggle-button {
+    position: absolute;
+    top: 20px;
+    right: -50px; /* Positioning the button outside the sidebar */
+    background-color: #003049;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.sidebar-content {
+    margin-top: 50px; /* Space for the toggle button */
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+}
+
+.tabs button.active {
+    color: #780000;
+    border-bottom: 2px solid #780000;
+}
